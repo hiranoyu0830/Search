@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="Advanced_Search.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <div align="right">
+            <a href="Google_Search.html" class="ChangePage" >Google Search</a>
+            <a href="Image_Search.html" class="ChangePage">Image Search</a>
+        </div>
+
+        <div style="color:red">
+            <p>Advanced Search</p>
+        </div>
+
+        
+        <hr>
+
+        <p class="labl">Find pages with...</p>
+
+        <form action="https://google.com/search">
+
+            <div>
+                <label class=labl>all these words:</label>
+                <input class=advancedinput autofocus type="text" name="as_q">
+            </div>
+        
+            <div>
+                <label class=labl>this exact word or phrase:</label>
+                <input type="text" name="as_epq">
+            </div>
+
+            <div>
+                <label class=labl>any of these words:</label>
+                <input type="text" name="as_oq">
+            </div>
+
+            <div>
+                <label class=labl>none of these words:</label>
+                <input type="text" name="as_eq">
+            </div>
+
+            <div align=center>
+                <input class="btn btn-primary" type="submit" value="Advanced Search">
+            </div>
+        
+        </form>
+    </body>
+</html>

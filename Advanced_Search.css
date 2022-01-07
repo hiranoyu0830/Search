@@ -1,0 +1,19 @@
+.labl {
+    margin: 15px;
+    width: 200px;
+}
+
+input[type="text"] {
+    width: 500px;
+    border: 1px solid rgb(233, 230, 230);
+}
+
+.ChangePage {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.ChangePage:hover {
+    text-decoration: underline
+}
